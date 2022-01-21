@@ -69,8 +69,7 @@ header{
     margin: 45px 0px -4px -1vw;
 }
 #header-right{
-    height: 75px;
-    width: 231.92px;   
+    height: 75px;  
 }
 
 .menu-box{
@@ -173,9 +172,17 @@ img{
     margin: 75px 5% 75px 75px;
     max-width: 40%;
     border-radius: 2px;
-  
 }
-
+.image-text-info{
+    font-size: xx-small;
+    color: rgba(125, 125, 125, 0.5);
+    font-style: italic;
+    padding-bottom: 16px;
+    margin-top: -8px;
+}
+.image-text-link{
+    color:rgba(125, 125, 125, 0.5)
+}
 #urban-img-two{
     -webkit-animation: adjustHue 20s alternate infinite;
     background: radial-gradient(rgba(255, 105, 180, 0.5) 3px, transparent 5px, #000 7px, transparent 9px, hotpink 11px, transparent 13px,  15px, transparent 17px, #000 19px, transparent 21px, hotpink 23px, transparent 25px, #fff 27px, transparent 29px, #000 31px, transparent 33px); 
@@ -198,15 +205,15 @@ img{
     border-right: 10px solid #f3ffff17;
     border-bottom: 8px solid rgb(231, 231, 231);
     background-color: whitesmoke;
-    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px; 
+    border-radius: 4px;
     margin-block-end: 22px;
     margin-block-start: 11px;
-    border-radius: 4px;
 }
 
 .pitcher-text>div{
     padding-top: 75px;
-    width: 33%;
+    width: 33vw;
 }
 
 
@@ -214,34 +221,40 @@ img{
 
 footer{
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
-
-.footer-space div{
-    height: 100px;
-    width: 12vw;
-    margin: 4vw 8vw;
+.footer-space{
+    height: 120px;
+    width: 100vw;
+    background-color: lavenderblush;
 }
-
-#box-0{
-    width: 7.2vw;
-    height: 100px
-}
-#box-1{
-    background-color: tomato;   
-}
-#box-2{
-    background-color: green;    
-}
-#box-3{
-    background-color: yellow;      
-}
-#box-1 h5, a{
-    text-decoration: none;
-}
-#box-3-linkedin{
+.box{
+    width: 25vw;
+    height: 25px;
+    padding: 5px;
+    border-radius: 2px;
+    border-left: 10px solid #f0ebeb17;
+    border-right: 10px solid #f3ffff17;
+    border-bottom: 8px solid rgb(231, 231, 231);
+    background-color: whitesmoke;
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px; 
+    border-radius: 4px; 
+    text-align: center; 
     text-decoration: none;
     color: grey;
+}
+.box:hover{
+    background-color: lightgrey;     
+}
+.box-1 h5, a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+#form-icon{
+    padding: 10px;
+}
+#box-3-linkedin{
+    
     display: inline-flex;
 }
