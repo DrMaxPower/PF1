@@ -3,7 +3,7 @@
 This website is for hobby photoagrapher to be inspired.
 Today many of us have great cameras on the phone that is not beeing shared in a artfull way.
 
-![](/image/website%50.png)
+![](assets/image/website.png)
 
 #navigations
 -click the font awesome icons to look at urban or nature pitchers.
