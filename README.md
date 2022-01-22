@@ -1,3 +1,20 @@
+#Art portfolio
+
+This website is for hobby photoagrapher to be inspired.
+Today many of us have great cameras on the phone that is not beeing shared in a artfull way.
+
+![](/image/website%50.png)
+
+#navigations
+-click the font awesome icons to look at urban or nature pitchers.
+-dark mode is working but has a lot of unfixed code
+-in the footer you wwill find a lik to a form and my linkedin page.
+-enjoy
+
+
+css code is validate. 
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome DrMaxPower,
