@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Titillium+Web:wght@300&display=swap');
-
- 
 *{
     margin: 0;
     padding: 0;
     border: none;
 }
-
 body{
     font-family: Roboto, sans-serif;
     background-color: lavenderblush;
 }
-
 h1{
     font-family: Titillium, sans-serif;
     text-transform: uppercase;
@@ -31,9 +27,8 @@ header{
     z-index: 1;
     background-color: white;   
 }
-
 #header-menu{
-    width: 57.400000000000006vw;
+    width: 57.40vw;
     margin-block: -4px; 
     display: inline-flex;
     justify-content: space-between;
@@ -78,21 +73,6 @@ header{
     border-right: 1px solid aliceblue;
     z-index: -1;
     top: 50%; 
-}
-
-#sun {
-    border-radius: 50%;
-    height: 16px;
-    color: rgb(124, 95, 41);
-    background: radial-gradient(
-    #FBAB7E 20%,
-    #F7CE68 40%,
-    #f8f3de 20%
-    )
-}
-
-#moon {
-    color: rgb(49,4,54);
 }
 #info{
     color: white;
