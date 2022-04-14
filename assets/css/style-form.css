@@ -20,136 +20,15 @@ h2{
 p{
     font-family: sans-serif;
 }
-legend{
-    font-size: 1rem;
-    font-family: Titillium, sans-serif;
-    color: #3a3a3a;
-    margin: 4px;
-    padding-top: 16px;
-}
 
 header{
     height: 75px;
     width: 100vw;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
     background-color: white;   
 }
 
-#header-menu{
-    width: 57.400000000000006vw;
-    margin-block: -4px;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-left: 23vw;
-}
 @media(max-width:760px){
-    header{
-        height: 75px;
-        width: 66%;
-        margin: auto;
-        display: flex;
-    }
-    .menu-box {
-        margin-left: -16vw;
-    }
-}
-#pinkbox{
-    width: 5%;
-    min-width: 4px;
-    background-color: rgb(255, 240, 105);
-    left: 16.17vw;
-    z-index: -1;
-    position: absolute;
-    height: 45px;
-    bottom: 0px;
-    box-shadow: white 0px 0px 0px 0px inset, rgb(255 255 255) 677px -18px 109px 13px, rgb(255 217 19) -12px -11px;
-}
-#logo{
-    margin: 45px 0px -4px -1vw;
-}
-#header-right{
-    height: 75px;
-    width: 231.92px;   
-}
-.menu-box{
-    display: inline-flex;
-    position: sticky;
-    margin-left: -12.670000000000002vw
-}
-.menu-icons {
-    margin-top: 50px;
-    padding: 5px;
-}
-#yellow-box{
-    height: 75px;
-    min-width: 35px;
-    background-color: #F7CE68;
-    clip-path: polygon(0 50%, 75% 50%, 100% 100%, 0% 100%);
-    margin-right: 15px;
-    border-right: 1px solid aliceblue;
-    z-index: -1;
-    top: 50%; 
-}
-/* ¤¤¤¤¤¤¤¤¤¤¤ main ¤¤¤¤¤¤¤¤¤¤¤ */
-
-#main-bg-form{
-    margin: auto;
-    width: 66vw;
-    height: 600px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    text-align: center; 
-    justify-content: space-between;  
-}
-#form-label{
-    height: 300px;
-    width: 30vw;
-    border: 1px solid #3a3a3a;  
-    padding: 5px; 
-    background-color: rgb(241, 240, 240);
-}
-select{
-    width: 180px;
-    padding: 5px;
-    margin: 2px;
-    border-radius: 5px;
-    border: 1px solid rgba(25,25,25,0.5)   
-}
-
-.block-input-form{
-    margin: 2px;
-}
-.name-input-form {
-    padding: 2px;
-    border: 1px solid rgba(25,25,25,0.5);
-    border-radius: 5px;
-}
-#form-button{
-    padding: 5px;
-    border-radius: 10px;
-    background-color: honeydew;
-    border: 1px inset black;
-    box-shadow: 2px 2px grey;
-}
-#form-button:hover{
-    background-color: green;
-    cursor: pointer;
-}
-#box-2{
-    padding: 5px;
-    border-radius: 2px;  
-}
-table{
-    border: 1px solid lightgrey;
-}
-tr, th, td{
-    border-bottom: 1px dotted lightgrey;
-    border-right: 1px dotted lightgrey;
-    padding: 5px;
+ 
 }
 
 
