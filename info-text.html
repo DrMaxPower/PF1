@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Portfolio Info Day</title> 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/7298b5ab39.js" crossorigin="anonymous" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/7298b5ab39.js" crossorigin="anonymous" defer></script>
+        <title>Art Portfolio Info</title>   
+    </head>
 <body>
-    <header >
-        <div id="header-menu">
-            <div id="pinkbox"></div>
-            <a href="info-text.html" ><h1 id="logo">Art Portfolio</h1></a>
-            <div id="header-right">
-                <div class="menu-box">
-                    <div id="yellow-box"></div> 
-                    <div class="menu-icons" id="city">
-                        <a href="index.html"><i class="fas fa-city"></i></a> 
-                    </div>
-                    <div class="menu-icons" id="nature">
-                        <a href="nature-gallery.html" aria-label="click here to look at nature photos"><i class="fab fa-pagelines"></i></a> 
-                    </div>
-                    <div class="menu-icons" id="info">
-                        <a href="info-text.html"><i class="fas fa-info-circle"></i></a> 
-                    </div>                
-                    <div class="menu-icons" id="sun">
-                        <a href="info-text.html"><i class="far fa-sun"></i></a>
-                    </div>
-                    <div class="menu-icons" >
-                        <a href="info-text-dark.html"><i class="fas fa-moon" id="moon"></i></a>
-                    </div>
-                    <div id="antiquewhite-box"></div>
+    <header>
+        <div class="container">
+            <div id="pinkbox"></div>  
+            <div class="content">
+                <div id="logo-text">
+                    <a href="index.html" ><h1 id="">Art Portfolio</h1></a>
                 </div>
-            </div>
-            <div id="greytopp"></div> 
-            <div id="linebott"></div>
+                <nav class="nav-content">
+                    <a href="index.html">
+                        <div id="city" class="wrap-icons">
+                            <i class="fas fa-city"></i>
+                            <p>Urban</p>
+                        </div>
+                    </a>
+                    <a href="nature-gallery.html">
+                        <div id="nature" class="wrap-icons">
+                            <i class="fab fa-pagelines"></i>
+                            <p>Nature</p>
+                        </div>
+                    </a> 
+                    <a href="info-text.html">
+                        <div id="info" class="wrap-icons">
+                            <i class="fas fa-info-circle"></i>
+                            <p>info</p>
+                        </div>
+                    </a>     
+                </nav>
+            </div>                       
+            <div id="yellow-box"></div>
         </div>
     </header> 
-    <div style="height: 75px;"></div>
+    <div id="greytopp"></div> 
+    <div id="linebott"></div>
+
     <div id="mainbg">
-        <nav> 
-            <div class="pitcher-text">
-                <img src="assets/image/urban/me-at-home.jpg" 
-                        alt="pitcher of Niklas the creator"
-                        id="urban-img-four">
-                <div>
-                    <h3>code institute</h3>
-                    <p>lot of texts lot of texts lot of texts lot of texts lot of texts</p>
-                </div>
+        <div class="pitcher-text">
+            <img src="assets/image/urban/me-at-home.jpg" 
+                    alt="pitcher of Niklas the creator"
+                    class="image-frame">
+            <div class="text-container">
+                <h3>code institute</h3>
+                <br>
+                <p>The Roman Colosseum, completed in AD 80, had roughly 25 elevators that were used for raising animals up to the floor. Each elevator could carry about 600 pounds (270 kg) (roughly the weight of two lions) 23 feet (7.0 m) up when powered by up to eight men.</p>
             </div>
-        </nav>
+        </div>
     </div>
+
+    
+    <footer class="footer-space">
+        <a href="form.html"  target="_blank" rel="noopener">
+            <div class="box">
+                <p>Win a Photo.<i class="fab fa-wpforms"></i></p>    
+            </div>        
+        </a>
+        <a href="https://linkedin.com/in/niklas-fernström-3981a522b" target="_blank" rel="noopener">
+            <div class="box">
+                <p>Contact.<i class="fab fa-linkedin" data-fa-transform="down-8"></i></p>    
+            </div>    
+        </a>
+    </footer>
+
 </body>
 </html>

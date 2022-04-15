@@ -24,7 +24,7 @@ p{
 /* Header */
 header{
     padding-top: 1rem;
-    height: 75px;
+    height: 55px;
     width: 100vw;
     background-color: white;
 }
@@ -41,6 +41,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 #pinkbox{
@@ -57,10 +58,19 @@ header{
     height: 45px;
     box-shadow: white 0px 0px 0px 0px inset, rgb(255 255 255) 677px -18px 109px 13px, rgb(255 105 180) 12px -11px;
 }
+
 .wrap-icons{
     display: flex;
 }
-
+.wrap-icons > i{
+    padding-right: .5em;
+}
+.fa-city{
+    color: #c23616;
+}
+.fa-pagelines{
+    color: #44bd32;
+}
 
 #greytopp{
     width: 100vw;
@@ -200,10 +210,11 @@ footer{
 }
 @media(min-width:1024px){
     header{
-        height: 75px;
+        height: 55px;
     }
     .container{
-        justify-content: space-evenly
+        justify-content: space-evenly;
+    
     }
     .content{
         display: flex;
@@ -230,6 +241,13 @@ footer{
     }
     #mainbg{
         width: 70vw;
+    }
+    #logo-text{
+        padding-right: 5rem;
+        margin-left: -5rem;
+    }
+    .wrap-icons{
+        padding-right: 1em;
     }
 }
 
