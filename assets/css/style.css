@@ -27,6 +27,7 @@ header{
     height: 55px;
     width: 100vw;
     background-color: white;
+    margin-top: 1em;
 }
 .container{
     display: flex;
@@ -74,15 +75,17 @@ header{
 
 #greytopp{
     width: 100vw;
-    height: 1em;
+    height: .7em;
     background-color: aliceblue;
 }
 
 #linebott{
     height: 1rem;
     width: 100vw;
+    margin-bottom: 1em;
     background-color: #8EC5FC;
     background-image: linear-gradient(180deg, #8EC5FC 50%, #E0C3FC 100%);
+    box-shadow: rgba(0, 0, 0, 0.253) 0px 2px 4px, rgba(0, 0, 0, 0.212) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 /* End Of Header */
 
@@ -90,6 +93,8 @@ header{
 #mainbg{
     width: 100vw;
     margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background: linear-gradient(101deg, #FBFAEB 60%, #fffbe4 60%);
 }
 
@@ -105,6 +110,7 @@ header{
     margin-block-start: 1rem;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 img{
     height: auto;
@@ -184,6 +190,27 @@ footer{
 .box-1 h5, a{
     text-decoration: none;
 }
+
+/* form style */
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .1em;
+}
+#pitchers-urban{
+    background-color: #c235160e;
+}
+#pitchers-nature{
+    background-color: #45bd3211;
+}
+#form-button{
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #fffbe4;
+}
+
+
 @media(max-width:389px){
     header{
         padding-top: 1rem;

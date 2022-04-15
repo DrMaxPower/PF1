@@ -43,26 +43,27 @@
     <div id="greytopp"></div> 
     <div id="linebott"></div>
 
-    <div style="height: 110px;"></div>
-    <section id="main-bg-form">
-        <fieldset>
-            <form method="POST" action="https://formdump.codeinstitute.net">
-                <h6>Complete my survey for your chance to win a pitcher.</h6>
+    <div id="mainbg">
+        <div class="pitcher-text">
+            <form method="POST" action="https://formdump.codeinstitute.net" class="form-field">
+                <br>
                 <h2>Fill in my form</h2>
-                <div id="form-label">
-                    <div style="margin: 2px">
-                        <label for="pitchers-urban" class="block-label-form">Which Urban photo did you like most?</label>
+                <h6>Complete my survey for your chance to win a pitcher.</h6>
+                <br>
+                <div id="form-label" class="form-field">
+                    <div class="form-field">
+                        <label for="pitchers-urban">Which Urban photo did you like most?</label>
                         <select id="pitchers-urban" required>
                             <option value="">Choose Urban Pitcher</option>
                             <option value="Elevator">Elevator</option>
                             <option value="Kaknästornet">Kaknästornet</option>
                             <option value="Lion">Lion</option>
-                            <option value="Old Bridge">Lidingö Old Bridge</option>
                             <option value="Södermalm">Södermalm</option>
                         </select>
                     </div>
-                    <div style="margin: 2px">
-                        <label for="pitchers-nature" class="block-label-form">Which Nature photo did you like most?</label>
+                    <br>
+                    <div class="form-field">
+                        <label for="pitchers-nature">Which Nature photo did you like most?</label>
                         <select id="pitchers-nature" required>
                             <option value="">Choose Nature Pitcher</option>
                             <option value="Långe Erik">Långe Erik</option>
@@ -74,40 +75,40 @@
                         </select>
                     </div>
                     <br>
-                        <div> 
-                            <label>Name</label>
-                            <input type="text" id="name" class="name-input-form">
-                        </div>    
+                    <label>Name</label>
+                    <input type="text" id="name" class="name-input-form">
                     <br>
-                        <div> 
-                            <label>Email</label>
-                            <input type="text" id="email" class="name-input-form">
-                        </div> 
-                    <BR>
-                    <label for="terms-checkbox">I accept the terms and conditions to the label</label>
+                    <label>Email</label>
+                    <input type="text" id="email" class="name-input-form"> 
+                    <br>
+                    <div>
+                        <label for="terms-checkbox">I accept the terms and conditions to the label</label>
                     <input id="terms-checkbox" value="accept_terms " type="checkbox"/>
-                    <BR>
+                    </div>
+                    <br>
                     <button id="form-button" type="submit">Send</button> 
                 </div>
                 <br>
                 <h3>Made by.</h3>
-                <div id="box-2">
-                    <table>
+                <div>
+                    <table border="1" cellspacing="15">
                         <tr>
                             <th>Name</th>
-                            <th>Age</th> 
                             <th>Occ.</th>
                         </tr>
                         <tr>
                             <td>Niklas</td>
-                            <td>32</td>
                             <td>Student</td>
                         </tr>
                     </table>
                 </div>
+                <br>
             </form>
-        </fieldset>
-    </section>
+
+        </div>
+    </div>
+
+
     <footer class="footer-space">
         <a href="form.html"  target="_blank" rel="noopener">
             <div class="box">
