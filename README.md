@@ -6,7 +6,7 @@ Art Portfolio is divided into an urban collection and a nature section giving yo
 
 So have a preferred drink and take a moment!  
 
-![Responsice Mockup](/assets/image/pf1_responsive_design.jpg "Responsive Design")
+![Responsice Mockup](/assets/image/md_image/pf1_responsive_design.jpg "Responsive Design")
 
 ## Features 
 
@@ -21,7 +21,7 @@ Let us start at the basic foundation. The body of the website is laid with a pin
   - Featured on all four pages, the full responsive navigation bar includes links to the Urban photos, Nature photos, and Info page and is identical on each page to allow for easy navigation. A fourth page is a form that has a link at the bottom of the page.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/assets/image/md_image/nav_bar.png "Top Menu")
 
 - __The landing page image__
 
