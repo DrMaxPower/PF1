@@ -48,6 +48,9 @@ Let us start at the basic foundation. The body of the website is laid with a pin
 
 This website is made with basic HTML and CSS. The flexibility comes a lot from CSS "flex". This function makes position super easy and more dynamic than margin and padding in pixels. However, two pitchers ("Kaknästornet" in Urban and "Mamma" in Nature) get out of line in smaller laptop sizes. Not in a major way but should be corrected in a future update. 
 
+Testing features and links and all works well. No other problems with the browser or other devices are recognized. 
+Pitchers can take a long time to load but it's not a problem in a small project like this. 
+
 
 ### Validator Testing 
 
@@ -60,9 +63,9 @@ This website is made with basic HTML and CSS. The flexibility comes a lot from C
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This is how the page was deployed on Github pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site is deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
