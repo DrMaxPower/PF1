@@ -39,34 +39,14 @@ Let us start at the basic foundation. The body of the website is laid with a pin
 
 - __Form__
 
-  - The form is an example where you can win a photo by telling which one you liked best. The link opens up in a new tab. 
+  - The form is an example where you can win a photo by telling which one you liked best. The link opens up in a new tab. This feature does not work and is made as an example. As told before every photo is royalty-free and taken by the creator so grab one however you like.  
   
 
 ![Form](/assets/image/md_image/form.png)
 
-- __The Sign Up Page__
+## Testing & Bugs
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+This website is made with basic HTML and CSS. The flexibility comes a lot from CSS "flex". This function makes position super easy and more dynamic than margin and padding in pixels. However, two pitchers ("Kaknästornet" in Urban and "Mamma" in Nature) get out of line in smaller laptop sizes. Not in a major way but should be corrected in a future update. 
 
 
 ### Validator Testing 
@@ -76,9 +56,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
