@@ -65,12 +65,6 @@ Pitchers can take a long time to load but it's not a problem in a small project 
 
 This is how the page was deployed on Github pages
 
-- The site is deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-
 
 
 ## Credits 
