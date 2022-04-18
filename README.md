@@ -10,7 +10,8 @@ So have a preferred drink and take a moment and enjoy!
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Let us start at the basic foundation. The body of the website is laid with a pink background and the grey cards are over a yellow background. The pink represents calmness and is there to lower testosterone since none of the pitchers bears the symbolism of aggression. The yellow represents scrap paper and light, together with the pink it hopefully brings forward the child in you and the joy of art, even if it is on a lower hobby level.  
+
 
 ### Existing Features
 
