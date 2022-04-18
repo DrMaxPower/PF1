@@ -1,7 +1,7 @@
 # Art Portfolio
 
 
-Hello and welcome to Art Portfolio. On this website, you will find a collection of photos presented in a calm full, and stress-relieving way. 
+Hello and welcome to Art Portfolio. On this website, you will find a collection of photos presented in a calmful, and stress-relieving way. 
 Art Portfolio is divided into an urban collection and a nature section giving you some photos from Sweden, mostly Stockholm. There is also an info link that leads you to some information about the creator. 
 
 So have a preferred drink and take a moment!  
@@ -26,29 +26,29 @@ Let us start at the basic foundation. The body of the website is laid with a pin
 - __The Main Content__
 
   - The main content of the website is photos and text cards. The photos are free to use royalty-free and the text is from Wikipedia. 
-  - To get the art feeling of art the cards are sometimes named in their Swedish name. 
+  - To get the art feeling of the artcards they are sometimes named in their Swedish name. 
 
 ![Card](/assets/image/md_image/card.png "Card With Pitcher & Text")
 
 
 - __The Footer__ 
 
-  - The footer section includes links to a form and LinkedIn.
+  - The footer section includes links to a form and to LinkedIn.
 
 ![Footer](/assets/image/md_image/footer.png "Footer")
 
 - __Form__
 
-  - The form is an example where you can win a photo by telling which one you liked best. The link opens up in a new tab. This feature does not work and is made as an example. As told before every photo is royalty-free and taken by the creator so grab one however you like.  
+  - The form is an example where you can win a photo by telling which one you like best. The link opens up in a new tab. This feature does not work and is made as an example. As told before every photo is royalty-free and taken by the creator so grab one however you like.  
   
 
 ![Form](/assets/image/md_image/form.png)
 
 ## Testing & Bugs
 
-This website is made with basic HTML and CSS. The flexibility comes a lot from CSS "flex". This function makes position super easy and more dynamic than margin and padding in pixels. However, two pitchers ("Kaknästornet" in Urban and "Mamma" in Nature) get out of line in smaller laptop sizes. Not in a major way but should be corrected in a future update. 
+This website is made with basic HTML and CSS. The flexibility comes mainly from CSS "flex". This function makes position super easy and more dynamic than margin and padding in pixels. However, two photos ("Kaknästornet" in Urban and "Mamma" in Nature) get out of line in smaller laptop sizes. Not in a major way but should be corrected in a future update. 
 
-Testing features and links and all works well. No other problems with the browser or other devices are recognized. 
+Testing features and links and works well. No other problems with the browser or other devices are recognized. 
 Pitchers can take a long time to load but it's not a problem in a small project like this. 
 
 
@@ -80,7 +80,7 @@ This website was created whit the help of **Code Institute**
 ### Content 
 
 - The text was taken from Wikipedia
-- The photos was taken by the creator
+- The photos where taken by the creator
 - The icons is from [Font Awesome](https://fontawesome.com/)
 
 
