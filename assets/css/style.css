@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Titillium+Web:wght@300&display=swap');
-
 ::-webkit-scrollbar{
     display: none;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -43,13 +41,6 @@ header{
     display: flex;
     flex-direction: column;
 }
-.nav-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
 #pinkbox{
     width: 4rem;
     min-width: 4px;
@@ -57,14 +48,12 @@ header{
     height: 45px;
     box-shadow: white 0px 0px 0px 0px inset, rgb(255 255 255) 677px -18px 109px 13px, rgb(255 105 180) -12px -11px;
 }
-#yellow-box{
-    width: 4rem;
-    min-width: 4px;
-    background-color: rgb(255 217 19);
-    height: 45px;
-    box-shadow: white 0px 0px 0px 0px inset, rgb(255 255 255) 677px -18px 109px 13px, rgb(255 105 180) 12px -11px;
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
 .wrap-icons{
     display: flex;
 }
@@ -77,13 +66,18 @@ header{
 .fa-pagelines{
     color: #44bd32;
 }
-
+#yellow-box{
+    width: 4rem;
+    min-width: 4px;
+    background-color: rgb(255 217 19);
+    height: 45px;
+    box-shadow: white 0px 0px 0px 0px inset, rgb(255 255 255) 677px -18px 109px 13px, rgb(255 105 180) 12px -11px;
+}
 #greytopp{
     width: 100vw;
     height: .7em;
     background-color: aliceblue;
 }
-
 #linebott{
     height: 1rem;
     width: 100vw;
@@ -92,9 +86,7 @@ header{
     background-image: linear-gradient(180deg, #8EC5FC 50%, #E0C3FC 100%);
     box-shadow: rgba(0, 0, 0, 0.253) 0px 2px 4px, rgba(0, 0, 0, 0.212) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-/* End Of Header */
-
-
+/* Main */
 #mainbg{
     width: 100vw;
     margin: auto;
@@ -102,7 +94,6 @@ header{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background: linear-gradient(101deg, #FBFAEB 60%, #fffbe4 60%);
 }
-
 .pitcher-text{
     display: flex;
     border-left: 0.8em solid #f0ebeb17;
@@ -134,7 +125,6 @@ img{
 .text-container p{
     text-align: justify;
 }
-
 .image-text-info{
     font-size: x-small;
     color: rgba(0, 0, 0, 0.5);
@@ -146,21 +136,21 @@ img{
 .image-text-link{
     color:rgba(0, 0, 0, 0.5)
 }
+/*  This is an effect on pitcher "kaknästornet" in Urban pitchers.
+    The effect is a slow-moving color change adding extra vibe to the pitcher */
 #urban-img-two{
     -webkit-animation: adjustHue 20s alternate infinite;
     background: radial-gradient(rgba(255, 105, 180, 0.5) 3px, transparent 5px, #000 7px, transparent 9px, hotpink 11px, transparent 13px,  15px, transparent 17px, #000 19px, transparent 21px, hotpink 23px, transparent 25px, #fff 27px, transparent 29px, #000 31px, transparent 33px); 
 }
-
 @-webkit-keyframes adjustHue {
     0% { -webkit-filter: hue-rotate(30deg); }
     50% { -webkit-filter: hue-rotate(60deg); }
     100% { -webkit-filter: hue-rotate(90deg); }   
  }
-
+ /* end of effect */
 .image-frame{
     box-shadow: rgba(47, 52, 58, 0.431) 0px 8px 24px;
 }
-
 footer{
     display: inline-flex;
     justify-content: space-evenly;
@@ -187,16 +177,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
-
 .box:hover{
     background-color: lightgrey;     
 }
 .box-1 h5, a{
     text-decoration: none;
 }
-
-/* form style */
+/* Form Style */
 .form-field{
     display: flex;
     flex-direction: column;
@@ -214,8 +201,7 @@ footer{
     padding: 1rem;
     background-color: #fffbe4;
 }
-
-
+/* Media Query */
 @media(max-width:389px){
     header{
         padding-top: 1rem;
