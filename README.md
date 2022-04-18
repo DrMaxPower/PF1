@@ -28,7 +28,7 @@ Let us start at the basic foundation. The body of the website is laid with a pin
   - The main content of the website is photos and text cards. The photos are free to use royalty-free and the text is from Wikipedia. 
   - To get the art feeling of art the cards are sometimes named in their Swedish name. 
 
-![Card](/assets/image/md_image/card.png "Card With Pitcher & Text)
+![Card](/assets/image/md_image/card.png "Card With Pitcher & Text")
 
 - __Club Ethos Section__
 
