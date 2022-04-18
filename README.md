@@ -23,12 +23,12 @@ Let us start at the basic foundation. The body of the website is laid with a pin
 
 ![Nav Bar](/assets/image/md_image/nav_bar.png "Top Menu")
 
-- __The landing page image__
+- __The Main Content__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The main content of the website is photos and text cards. The photos are free to use royalty-free and the text is from Wikipedia. 
+  - To get the art feeling of art the cards are sometimes named in their Swedish name. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Card](/assets/image/md_image/card.png "Card With Pitcher & Text)
 
 - __Club Ethos Section__
 
