@@ -63,7 +63,7 @@ Pitchers can take a long time to load but it's not a problem in a small project 
 
 ## Deployment
 
-This is how the page was deployed on Github pages
+Deployed by Github pages, click the link to visit [this is my art website pf1 drmaxpower.github.io/pf1/] (https://drmaxpower.github.io/pf1/) 
 
 
 
