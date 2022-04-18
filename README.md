@@ -6,7 +6,7 @@ Art Portfolio is divided into an urban collection and a nature section giving yo
 
 So have a preferred drink and take a moment and enjoy!  
 
-![Responsice Mockup](/PF1/assets/image/pf1_responsive_design.jpg)
+![Responsice Mockup](/assets/image/pf1_responsive_design.jpg "Responsive Design")
 
 ## Features 
 
