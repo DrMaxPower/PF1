@@ -63,8 +63,9 @@ Pitchers can take a long time to load but it's not a problem in a small project 
 
 ## Deployment
 
-Deployed by Github pages, click the link to visit [drmaxpower.github.io/pf1/] (https://drmaxpower.github.io/pf1/) 
-The project was pushed to the master branch, from settings I renamed the project to a lowercase letter name before saving it in Github Pages. Super easy to use for a simple website. 
+Deployed by Github pages, click the link to visit [drmaxpower.github.io/pf1/] (https://drmaxpower.github.io/pf1/)
+
+Project was pushed to the master branch, from settings I renamed the project to a lowercase letter name before saving it in Github Pages. 
 
 
 
