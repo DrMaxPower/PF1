@@ -42,7 +42,7 @@ Let us start at the basic foundation. The body of the website is laid with a pin
   - The form is an example where you can win a photo by telling which one you like best. The link opens up in a new tab. This feature does not work and is made as an example. As told before every photo is royalty-free and taken by the creator so grab one however you like.  
   
 
-![Form](/assets/image/md_image/form.png)
+![Form](/assets/image/md_image/form.png "Form")
 
 ## Testing & Bugs
 
@@ -63,7 +63,7 @@ Pitchers can take a long time to load but it's not a problem in a small project 
 
 ## Deployment
 
-Deployed by Github pages, click the link to visit [drmaxpower.github.io/pf1/] (https://drmaxpower.github.io/artportfolio/)
+Deployed by Github pages, click the link to visit [drmaxpower.github.io/artportfolio/] (https://drmaxpower.github.io/artportfolio/)
 
 Project was pushed to the master branch, from settings I renamed the project to a lowercase letter name before saving it in Github Pages. 
 
